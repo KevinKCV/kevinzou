@@ -222,6 +222,10 @@ img {
   color: #fff;
 }
 
+.section-wrapper:nth-child(odd) .a:link {
+  color : #fff
+}
+
 .paragraph-text {
   font-family: 'PT Sans', sans-serif;
   font-size: 20.8px;
