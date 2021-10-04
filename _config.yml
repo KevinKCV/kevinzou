@@ -8,6 +8,7 @@ exclude: [vendor/ruby]
 
 # Personalization
 github_username: cgsongv
+github_username: 
 email: cgsong86@vt.edu
 
 # absolute or relative
