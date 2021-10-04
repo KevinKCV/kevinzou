@@ -222,7 +222,7 @@ img {
   color: #fff;
 }
 
-.section-wrapper:nth-child(odd) .a:link {
+.section-wrapper:nth-child(odd) a {
   color : #fff;
 }
 
