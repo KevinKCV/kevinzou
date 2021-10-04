@@ -1,6 +1,6 @@
 title: Chang Geun Song
 description: Ph.D. Candidate, Economics, Virginia Tech
-site_title: 'Chang Geun Song, Ph.D. Candidate'
+site_title: '@cgsong - Chang Geun Song'
 
 # Build settings
 markdown: kramdown
@@ -11,7 +11,7 @@ github_username: cgsongv
 email: cgsong86@vt.edu
 
 # absolute or relative
-profile_picture: assets/images/pp2.jpg
+profile_picture: assets/images/pp3.jpg
 
 # Google Analytics ID
 google_analytics: 
