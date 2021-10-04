@@ -223,7 +223,7 @@ img {
 }
 
 .section-wrapper:nth-child(odd) .a:link {
-  color : #fff
+  color : #fff;
 }
 
 .paragraph-text {
