@@ -1,18 +1,18 @@
 title: Chang Geun Song
 description: Ph.D. Candidate, Economics, Virginia Tech
-site_title: '@abhn - Abhishek Nagekar'
+site_title: '@cgsong - Chang Geun Song'
 
 # Build settings
 markdown: kramdown
 exclude: [vendor/ruby]
 
 # Personalization
-github_username: abhn
-blog_url: https://www.nagekar.com
-email: abhishek@nagekar.com
-keybase_username: abhn
-twitter_username: abhn_
-reddit_username: abhn
+github_username: cgsongv
+#blog_url: https://www.nagekar.com
+email: cgsong86@vt.edu
+#keybase_username: abhn
+#twitter_username: abhn_
+#reddit_username: abhn
 
 # absolute or relative
 profile_picture: assets/images/pp.jpg
