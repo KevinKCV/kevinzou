@@ -108,6 +108,7 @@ img {
 }
 
 .head-menu-wrap {
+  clear:both;
   position: absolute;
   bottom: 40px;
   left: 50%;
@@ -509,6 +510,7 @@ a {
 @media screen and (max-width: 600px) {
 
   .head-menu-wrap {
+    clear:both;
     -ms-grid-columns: auto auto;
         grid-template-columns: auto auto;
     grid-column-gap: 10px;
@@ -564,12 +566,13 @@ a {
 
 @media screen and (max-height: 450px) and (max-width: 600px) {
   .head {
-    min-height: 1525px;
+    min-height: 525px;
   }
 }
 
 @media screen and (max-width: 400px) {
   .head-menu-wrap {
+    clear:both;
     -ms-grid-columns: auto auto;
         grid-template-columns: auto auto;
     grid-column-gap: 10px;
@@ -580,10 +583,11 @@ a {
 @media screen and (max-height: 525px) {
 
   .head {
-    min-height: 1500px;
+    min-height: 500px;
   }
 
   .head-menu-wrap {
+    clear:both;
     bottom: 15px;
   }
 }
