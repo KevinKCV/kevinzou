@@ -566,7 +566,7 @@ a {
 
 @media screen and (max-height: 450px) and (max-width: 600px) {
   .head {
-    min-height: 525px;
+    min-height: 1525px;
   }
 }
 
@@ -583,7 +583,7 @@ a {
 @media screen and (max-height: 525px) {
 
   .head {
-    min-height: 500px;
+    min-height: 1500px;
   }
 
   .head-menu-wrap {
