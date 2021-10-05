@@ -564,13 +564,13 @@ a {
   }
 }
 
-@media screen and (max-height: 450px) and (max-width: 600px) {
+@media screen and (max-height: 1450px) and (max-width: 600px) {
   .head {
-    min-height: 1525px;
+    min-height: 525px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1400px) {
   .head-menu-wrap {
     clear:both;
     -ms-grid-columns: auto auto;
@@ -580,10 +580,10 @@ a {
   }
 }
 
-@media screen and (max-height: 525px) {
+@media screen and (max-height: 1525px) {
 
   .head {
-    min-height: 1500px;
+    min-height: 500px;
   }
 
   .head-menu-wrap {
