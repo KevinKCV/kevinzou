@@ -526,9 +526,9 @@ a {
     font-size: 2.75rem;
   }
   
-  .head-punchline {
+  /* .head-punchline {
     text-align: center;
-  }
+  } */
 
   .skills-grid {
     -ms-grid-columns: 100%;
