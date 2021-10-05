@@ -149,6 +149,10 @@ img {
   text-align: center;
 }
 
+.left-align {
+  text-align: left;
+}
+
 .projects-wrapper {
   display: -ms-grid;
   display: grid;
