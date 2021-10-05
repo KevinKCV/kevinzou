@@ -591,3 +591,7 @@ a {
     bottom: 15px;
   }
 }
+
+.multi {
+  column-width: 450px;
+}
