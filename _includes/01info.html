@@ -5,13 +5,11 @@
         font-size: 1.3rem;
         color: #404040;
     }
-    .info01{
+    /* .info01{
         padding: 10px;
         width: 700px;
         margin: 10px auto;
-        border: 1px solid #ccc;
-        border-radius: 10px;
-
+        
         display: -webkit-box;
 
         display: -ms-flexbox;
@@ -23,7 +21,18 @@
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
+    } */
+
+    @media screen and (max-width: 400px) {
+        .multi {
+            column-count: 1;
+            text-align: justify
+        }
+
+        .multi h3 {
+        }
     }
+
     .multi {
         column-count: 2;
         column-rule: 2px dotted #fff;
@@ -32,7 +41,6 @@
     .multi h3 {
         break-before: column;
     }
-
 
     .no-col{
         /* background: #f0f0f0;
@@ -43,8 +51,8 @@
     }
 </style>
 
-<!-- <body class="infobody"> -->
-    <section class="info01 infobody">
+<div class="section-wrapper">
+    <section class="section infobody">
         <div class="multi">
             <hr class="no-col" style="border: none 5px; border: double rgb(192, 50, 50); width: 100%;">
             <b style="color: rgb(192, 50, 50)"> Primary Fields:</b><br>
@@ -75,4 +83,4 @@
             <hr class="no-col" style="border: none 5px; border: double rgb(192, 50, 50); width: 100%;">
         </div>
     </section>
-<!-- </body> -->
+</div>
