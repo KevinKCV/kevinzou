@@ -227,9 +227,14 @@ img {
   color: #fff;
 }
 
+.section-wrapper:nth-child(odd) .paragraph-button {
+  color: #fff;
+}
+
 .section-wrapper:nth-child(odd) a {
   color : #fff;
 }
+
 
 .paragraph-text {
   font-family: 'PT Sans', sans-serif;
