@@ -7,9 +7,9 @@
         max-width: 160px;
         min-width: 120px;
         background: transparent; /* fallback color for old browsers */
-        border-radius: 2px;
+        /* border-radius: 2px; */
         border-radius: 20%;
-        color: #fff;
+        color: rgb(0, 0, 0);
         text-align: center;
         text-decoration: none;
         letter-spacing: 1px;
@@ -60,6 +60,7 @@
     }
 
     summary {
+        font-weight: bold;
         cursor: pointer;
     }
     
@@ -73,14 +74,37 @@
         background-repeat: repeat;
     }
 
+    details {
+        border: 3px solid rgb(192, 50, 50);
+        border-radius: 10px;
+        padding: 0em .5em 0;
+    }
+
+    details[open] {
+        padding: .5em;
+    }
+
+    details[open] summary {
+        border-bottom: 1px solid #aaa;
+        margin-bottom: .5em;
+    }
+
+    .paragraph-button {
+        font-family: 'PT Sans', sans-serif;
+        font-size: 20.8px;
+        font-size: 1.3rem;
+        margin: 1px auto;
+        color: #404040;
+    }
+
 </style>
 
 <div class="section-wrapper">
     <section class="section about">
         <details>
-            <summary><p class="semi-transparent-button with-border nav-lnks">abstract</p></summary>
+            <summary class="paragraph-button">abstract</summary>
 
-            <p class="paragraph-text justify-text">
+            <p class="paragraph-button justify-text">
             A potential risk in making group decisions by majority rule is that the participants’ preferences may exhibit cycling, or Condorcet paradox. One needs voters’ full ranking of candidates to check whether the majority cycle exists or not in practice, but since the Plurality rule dominated world for long time, the most of actual data only contains persons’ the first-preferred. We use the best alternative, vast amount of survey data including respondents’ scoring. With the cardinal information, we introduce distinct statistic and approach to predict the Condorcet paradox in real-world. The idea is that see a ‘median’ as a great factor to predict win of one-to-one comparison, then we approximate the probability of a cycle from the probability of two sets of three events occur. In sum, our approach involves 1) assigning three candidates presumed positions of first, second and third 2) noting the gaps between pairs of candidates in apparent estimated merit, and then 3) computing the probability that the three pairwise comparisons will have a combination of outcomes that results in a cycle. 
             </p>
         </details>
