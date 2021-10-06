@@ -604,3 +604,7 @@ a {
 .no-col{
   column-span:all;
 }
+
+summary {
+  cursor: pointer;
+}
