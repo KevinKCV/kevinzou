@@ -1,11 +1,12 @@
+<html>
 <style>
-    body{
+    .infobody {
         font-family: 'PT Sans', sans-serif;
         font-size: 20.8px;
         font-size: 1.3rem;
         color: #404040;
     }
-    section{
+    .info01{
         padding: 20px;
         width: 700px;
         margin: 20ps auto;
@@ -14,7 +15,7 @@
     }
     .multi {
         column-count: 2;
-        column-rule: 2px dotted #000;
+        column-rule: 2px dotted #fff;
         text-align: justify;
     }
     .multi h3 {
@@ -22,18 +23,39 @@
     }
 </style>
 
-<body>
-    <section>
+<body class="infobody">
+    <section class="info01">
         <hr style="border: none 5px; border: double rgb(192, 50, 50); width: 100%;">        
         <div class="multi">
             <b style="color: rgb(192, 50, 50)"> Primary Fields:</b><br>
             Public Choice, Analyses of Voting <br>
+            <br>
             <b style="color: rgb(192, 50, 50)"> Secondary Field:</b><br>
             Applied Microeconomics <br>
+            <br>
             <b style="color: rgb(192, 50, 50)"> Expected Graduation Date:</b><br>
-            May 2022
-            <h3></h3> 
+            May 2022 <br>
+            <h3></h3>
+            <b style="color: rgb(192, 50, 50)"> Dissertation Committee:</b><br>
+            
+            Nicolaus Tideman<br>
+            <a href="mailto:{{ ntideman@vt.edu }}">ntideman@vt.edu</a><br>
+            <br>
+
+            Richard Ashley<br>
+            <a href="mailto:{{ ashleyr@vt.edu }}">ashleyr@vt.edu</a><br>
+            <br>
+
+            Eric Bahel<br>
+            <a href="mailto:{{ erbahel@vt.edu }}">erbahel@vt.edu</a><br>
+            <br>
+
+            Florenz Plassmann<br>
+            <a href="mailto:{{ plassmann@ohio.edu }}">plassmann@ohio.edu</a><br>
+            <br>
+
         </div>
         <hr style="border: none 5px; border: double rgb(192, 50, 50); width: 100%;"> 
     </section>
 </body>
+</html>
