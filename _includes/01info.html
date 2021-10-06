@@ -1,4 +1,3 @@
-<html>
 <style>
     .infobody {
         font-family: 'PT Sans', sans-serif;
@@ -9,9 +8,21 @@
     .info01{
         padding: 20px;
         width: 700px;
-        margin: 20ps auto;
+        margin: 10px auto;
         border: 1px solid #ccc;
         border-radius: 10px;
+
+        display: -webkit-box;
+
+        display: -ms-flexbox;
+
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .multi {
         column-count: 2;
@@ -21,12 +32,21 @@
     .multi h3 {
         break-before: column;
     }
+
+
+    .no-col{
+        /* background: #f0f0f0;
+        margin 10px 3px;
+        padding:20px;
+        border-radius:5px; */
+        column-span:all;
+    }
 </style>
 
 <body class="infobody">
     <section class="info01">
-        <hr style="border: none 5px; border: double rgb(192, 50, 50); width: 100%;">        
         <div class="multi">
+            <hr class="no-col" style="border: none 5px; border: double rgb(192, 50, 50); width: 100%;">
             <b style="color: rgb(192, 50, 50)"> Primary Fields:</b><br>
             Public Choice, Analyses of Voting <br>
             <br>
@@ -52,10 +72,7 @@
 
             Florenz Plassmann<br>
             <a href="mailto:{{ plassmann@ohio.edu }}">plassmann@ohio.edu</a><br>
-            <br>
-
+            <hr class="no-col" style="border: none 5px; border: double rgb(192, 50, 50); width: 100%;">
         </div>
-        <hr style="border: none 5px; border: double rgb(192, 50, 50); width: 100%;"> 
     </section>
 </body>
-</html>
