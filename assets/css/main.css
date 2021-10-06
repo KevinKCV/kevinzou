@@ -591,3 +591,16 @@ a {
     bottom: 15px;
   }
 }
+
+.multi {
+  column-count: 2;
+  text-align: justify;
+}
+
+.multi h3 {
+  break-before: column;
+}
+
+.no-col{
+  column-span:all;
+}
