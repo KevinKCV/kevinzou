@@ -1,0 +1,73 @@
+<style>
+    .semi-transparent-button {
+        display: block;
+        box-sizing: border-box;
+        margin: 0 auto;
+        padding: 8px;
+        max-width: 160px;
+        min-width: 120px;
+        background: transparent; /* fallback color for old browsers */
+        border-radius: 2px;
+        border-radius: 20%;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        letter-spacing: 1px;
+        transition: all 0.1s ease-out;
+    }
+    .semi-transparent-button:hover,
+    .semi-transparent-button:active {
+        background: #fff;
+        color: #444;
+        transition: all 0.1s ease-in;
+    }
+    .semi-transparent:focus {
+        outline: none;
+    }
+    
+    .is-blue {
+        background: #1e348e; /* fallback color for old browsers */
+        background: rgba(30, 52, 142, 0.5);
+    }
+    .is-blue:hover,
+    .is-blue:focus,
+    .is-blue:active {
+        background: #1e348e; /* fallback color for old browsers */
+        background: rgb(30, 52, 142);
+        color: #fff;
+    }
+    
+    .with-border {
+        border: 1px solid #fff;
+    }
+    
+    .white-button {
+        color: #222;
+        border: 1px solid #222;
+        min-width: 110px;
+    }
+    
+    .white-button:hover {
+        color: #fff;
+        background: #222;
+        cursor: pointer;
+    }
+    
+    .white-button-hover {
+        color: #fff;
+        background: #222;
+        cursor: pointer;
+    }
+
+    summary {
+        cursor: pointer;
+    }
+</style>
+
+<details>
+    <summary class="semi-transparent-button with-border">abstract</summary>
+
+    <p class="paragraph-text justify-text">
+    A potential risk in making group decisions by majority rule is that the participants’ preferences may exhibit cycling, or Condorcet paradox. One needs voters’ full ranking of candidates to check whether the majority cycle exists or not in practice, but since the Plurality rule dominated world for long time, the most of actual data only contains persons’ the first-preferred. We use the best alternative, vast amount of survey data including respondents’ scoring. With the cardinal information, we introduce distinct statistic and approach to predict the Condorcet paradox in real-world. The idea is that see a ‘median’ as a great factor to predict win of one-to-one comparison, then we approximate the probability of a cycle from the probability of two sets of three events occur. In sum, our approach involves 1) assigning three candidates presumed positions of first, second and third 2) noting the gaps between pairs of candidates in apparent estimated merit, and then 3) computing the probability that the three pairwise comparisons will have a combination of outcomes that results in a cycle. 
+    </p>
+</details>
