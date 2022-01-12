@@ -212,7 +212,7 @@ img {
 
 .section-wrapper:nth-child(odd) {
   
-	ground: url(../images/);
+  background: url(../images/backg.png);
   background-repeat: repeat;
 }
 
