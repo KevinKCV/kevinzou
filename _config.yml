@@ -1,0 +1,18 @@
+title: Chang Geun Song
+description: Job Market Candidate
+site_title: 'Chang Geun Song, Job Market Candidate'
+
+# Build settings
+markdown: kramdown
+exclude: [vendor/ruby]
+
+# Personalization
+github_username: cgsongv
+github_username: 
+email: cgsong86@vt.edu
+
+# absolute or relative
+profile_picture: assets/images/pp3.jpg
+
+# Google Analytics ID
+google_analytics: 
