@@ -1,18 +1,18 @@
-title: Chang Geun Song
+title: Kevin Zou
 description: Job Market Candidate
-site_title: 'Chang Geun Song, Job Market Candidate'
+site_title: 'Kevin Zou, Job Market Candidate'
 
 # Build settings
 markdown: kramdown
 exclude: [vendor/ruby]
 
 # Personalization
-github_username: cgsongv
+github_username: KevinKCV
 github_username: 
-email: cgsong86@vt.edu
+email: zou@vt.edu
 
 # absolute or relative
-profile_picture: assets/images/pp3.jpg
+profile_picture: assets/images/kz.jpg
 
 # Google Analytics ID
 google_analytics: 
